@@ -4,7 +4,7 @@ export default function Menu() {
   return (
     <Container>
       <Navbar expand="sm" className={`${styles.navGradiente}  text-dark px-3 m-0 border border-info-subtle rounded rounded-4`}>
-        <Navbar.Brand href="/">6B</Navbar.Brand>
+        <Navbar.Brand href="/">6A</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -12,6 +12,7 @@ export default function Menu() {
             <Nav.Link href="/produtos">Produtos</Nav.Link>
             <Nav.Link href="/promessa">Promessa</Nav.Link>
             <Nav.Link href="/pages">Pages</Nav.Link> 
+            <Nav.Link href="/pesportes">P.Esportes</Nav.Link> 
           </Nav>
         </Navbar.Collapse>
       </Navbar>
